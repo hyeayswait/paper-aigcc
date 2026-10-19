@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 本地数据（论文、比对库、训练集，不入库）
+data/
+out/
+vendor/
+
+# 本地配置（含 API Key，绝不能提交）
+.config/
+*.local.json
+
+# 日志与临时文件
+*.log
+*.tmp
+~$*
