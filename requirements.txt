@@ -1,0 +1,7 @@
+# 运行必需
+python-docx>=1.1.0
+numpy>=1.24
+requests>=2.28
+
+# 可选：检测 PDF 论文时需要
+PyMuPDF>=1.23
